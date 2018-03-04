@@ -16,20 +16,16 @@ void	zoom(t_map *map, int key_code)
 {
 	if (key_code == 69)
 	{
-		mlx_clear_window(map->mlx_init, map->window);
-		if (map->sx < 600)
+		if ((map->sx * 2) < 50)
 			map->sx *= 2;
-		if (map->sy < 600)
+		if ((map->sy * 2) < 50)
 			map->sy *= 2;
-		drawer(map);
 	}
 	if (key_code == 78)
 	{
-		mlx_clear_window(map->mlx_init, map->window);
-		if (map->sx < 600)
+		if ((map->sx * 2) > 1)
 			map->sx *= 0.5;
-		if (map->sy < 600)
+		if ((map->sy * 2) > 1)
 			map->sy *= 0.5;
-		drawer(map);
 	}
 }

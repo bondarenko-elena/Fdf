@@ -14,26 +14,24 @@
 
 void	move(t_map *map, int key_code)
 {
-	mlx_clear_window(map->mlx_init, map->window);
 	if (key_code == 123)
 	{
-		if (map->dx < 900)
+		if (map->dx > 300)
 			map->dx -= 10;
 	}
 	if (key_code == 124)
 	{
-		if (map->dx < 900)
+		if (map->dx < 600)
 			map->dx += 10;
 	}
 	if (key_code == 125)
 	{
-		if (map->dy < 900)
+		if (map->dy < 400)
 			map->dy += 10;
 	}
 	if (key_code == 126)
 	{
-		if (map->dy < 900)
+		if (map->dy > 0)
 			map->dy -= 10;
 	}
-	drawer(map);
 }
