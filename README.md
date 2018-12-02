@@ -3,9 +3,9 @@ The project discover how to open a graphic window and draw in. To start journey 
 
 Hooks for MacOS:
 relief +/-               ---> Numpad 6 / Numpad 9 </br>
-change color             ---> C
-zoom +/-                 ---> Numpad + / Numpad -
-move up/down/left/right  ---> arrows
+change color             ---> C </br>
+zoom +/-                 ---> Numpad + / Numpad - </br>
+move up/down/left/right  ---> arrows </br>
 
 ![alt tag](https://github.com/bondarenko-elena/7_Fdf/blob/master/Screen%20Shot%202018-12-02%20at%205.46.10%20PM.png)
 ![alt tag](https://github.com/bondarenko-elena/7_Fdf/blob/master/Screen%20Shot%202018-12-02%20at%205.46.48%20PM.png)
