@@ -1,5 +1,5 @@
 # Fdf
-This project is about creating a simplified 3D graphic representation of arelief landscape.
+This project is about creating a simplified 3D graphic representation of arelief landscape with minilibx.
 
 Hooks for MacOS: </br>
 relief +/-               ---> Numpad 6 / Numpad 9 </br>
