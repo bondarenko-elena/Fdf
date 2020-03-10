@@ -1,5 +1,5 @@
-# 7_Fdf
-The project discover how to open a graphic window and draw in. To start journey in the country of graphic programming, FdF proposes to represent the mesh in "wire of a field" in 3D using minilibX library.
+# Fdf
+This project is about creating a simplified 3D graphic representation of arelief landscape.
 
 Hooks for MacOS: </br>
 relief +/-               ---> Numpad 6 / Numpad 9 </br>
